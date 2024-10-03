@@ -1,5 +1,8 @@
 This is my first personal project on algorithmic trading. 
 
+Note:
+- Data collected is from a sandbox API (ie. Data is random)
+
 What I've learnt:
 - Algorithmic Trading Process is broken down generally into these steps:
   1. Collecting Data
