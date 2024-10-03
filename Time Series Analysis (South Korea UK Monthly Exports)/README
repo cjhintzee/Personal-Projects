@@ -1,0 +1,7 @@
+This project was part of my admissions test into a quant finance society in my school.
+
+The main purpose of the test was to determine if applicants had some prior understanding of coding out a TSA, with little emphasis on the actual hypothesis of the strategy.
+
+This TSA was done on SK's Monthly Exports (in USD billions) against time (MM/YY), and its hypothesis is that we could use past exports data to predict future data.
+
+As you can see from the results of the model, the hypothesis clearly needs more refining. However, it was a great exposure and experience for me into the world of quant finance.
