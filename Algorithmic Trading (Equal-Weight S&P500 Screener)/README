@@ -3,12 +3,9 @@ This is my first personal project on algorithmic trading.
 The strategy for this project is assigning equal weights to all the companies in the S&P500. 
 The hypothesis for this strategy is that smaller-cap stocks may have more room for growth or are more likely to be mispriced, compared to the mega-cap stocks that dominate the S&P 500's market-cap-weighted index.
 
-How it may work:
+How this hypothesis may work:
 Diversification of Risk: Equal-weighting reduces the concentration of risk by spreading it evenly across all 500 companies, limiting the dominance of large-cap stocks.
 Smaller-Cap Exposure: The strategy increases exposure to mid- and small-cap stocks, potentially leading to higher returns compared to large-cap stocks over certain periods.
-
-Note:
-- Data collected is from a sandbox API (ie. Data is random)
 
 What I've learnt:
 - Algorithmic Trading Process is broken down generally into these steps:
@@ -16,3 +13,6 @@ What I've learnt:
   2. Developing a hypothesis for a strategy
   3. Backtesting the strategy
   4. Implement strategy in production
+
+How I can improve this project:
+- Purchasing an API that allows for batch calls (optimises the speed at which the data is collected)
