@@ -7,6 +7,8 @@ How this hypothesis may work:
 Diversification of Risk: Equal-weighting reduces the concentration of risk by spreading it evenly across all 500 companies, limiting the dominance of large-cap stocks.
 Smaller-Cap Exposure: The strategy increases exposure to mid- and small-cap stocks, potentially leading to higher returns compared to large-cap stocks over certain periods.
 
+The output of this project is a excel sheet recommending the number of shares to buy for each S&P500 company.
+
 What I've learnt:
 - Algorithmic Trading Process is broken down generally into these steps:
   1. Collecting Data
