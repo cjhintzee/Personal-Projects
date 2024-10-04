@@ -13,8 +13,8 @@ What I've learnt:
 - Algorithmic Trading Process is broken down generally into these steps:
   1. Collecting Data
   2. Developing a hypothesis for a strategy
-  3. Backtesting the strategy
-  4. Implement strategy in production
+  3. Backtesting the strategy* (did not do for this project)
+  4. Implement strategy in production* (did not do for this project)
 
 How I can improve this project:
 - Purchasing an API to get real-time list of S&P500 companies 
