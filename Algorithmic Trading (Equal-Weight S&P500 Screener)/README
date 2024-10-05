@@ -18,4 +18,4 @@ What I've learnt:
 
 How I can improve this project:
 - Purchasing an API to get real-time list of S&P500 companies 
-- Purchasing an API that allows for batch calls (optimises the speed at which the data is collected)
+- Purchasing an API that allows for batch calls to obtain price quote for each company (optimises the speed at which the data is collected)
