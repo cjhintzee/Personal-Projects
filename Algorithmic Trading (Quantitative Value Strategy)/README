@@ -1,0 +1,3 @@
+This is my second personal project on algorithmic trading. 
+
+The strategy for this project is to select the 50 companies with the lowest Robust Value (RV) score from the S&P 500 and assign equal weights to these companies in the portfolio, rebalancing every 30 days.
