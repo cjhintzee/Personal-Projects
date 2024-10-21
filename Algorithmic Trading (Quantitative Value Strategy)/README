@@ -1,3 +1,16 @@
 This is my second personal project on algorithmic trading. 
 
 The strategy for this project is to select the 50 companies with the lowest Robust Value (RV) score from the S&P 500 and assign equal weights to these companies in the portfolio, rebalancing every 30 days.
+
+The hypothesis for this strategy is that companies with lower valuation multiples (e.g., price-to-earnings, price-to-book) relative to their peers are undervalued by the market and may provide superior long-term returns, especially when combined with a disciplined rebalancing approach.
+
+How this hypothesis may work:
+1.	Value Investing Focus: Stocks with low valuation multiples are often undervalued, and by targeting companies with the lowest RV scores, the strategy aims to capitalize on potential price corrections as the market revalues these companies over time.
+2.	Equal Weighting: Assigning equal weights to the top 50 undervalued stocks diversifies exposure across a range of sectors and reduces the over-concentration that can occur in traditional market-cap-weighted indices.
+3.	Systematic Rebalancing: By rebalancing every 30 days, the strategy regularly adjusts the portfolio to stay aligned with the evolving valuation metrics, ensuring that the portfolio remains focused on stocks that continue to exhibit attractive valuation characteristics.
+
+The output of this project is an Excel sheet that lists the top 50 S&P 500 companies based on their RV score and recommends the number of shares to buy for each company, ensuring equal weight allocation across the portfolio.
+
+How I can improve this project:
+1.	Use a static dataset: Manually download historical financial metrics for the 2-year period you're interested in, and use this data for the backtest. This data could come from services like Alpha Vantage, Quandl, or other financial data sources that provide historical fundamentals.
+2.	Simulate a rolling rebalance based on prices alone: If you cannot find historical fundamentals, you could adjust your strategy to rely purely on historical prices (and derive ratios or signals from them).
